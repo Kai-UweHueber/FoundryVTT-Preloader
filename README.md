@@ -5,11 +5,10 @@
 <h2><strong>Usage</strong></h2>
 <p>You can find the Preloader settings menu in the game settings.</p>
 
-![Foundry_Virtual_Tabletop_ONgrhnBZIP](https://github.com/JabaNazgob/Preloader/assets/8327536/358af2f3-4d9d-4084-bb9c-a06283d419dc)
-
+![Foundry_Virtual_Tabletop_ONgrhnBZIP](https://github.com/JabaNazgob/FoundryVTT-Preloader/assets/8327536/ad33caef-e751-4547-823c-34c044d4aaf8)
 <p>Clicking one of the buttons will open the corresponding preload window. </p>
 
-![Foundry_Virtual_Tabletop_wJG3B1UKVG](https://github.com/JabaNazgob/Preloader/assets/8327536/d0fd6239-64ae-4556-a852-641aae96d3d5)
+![Foundry_Virtual_Tabletop_wJG3B1UKVG](https://github.com/JabaNazgob/FoundryVTT-Preloader/assets/8327536/40d4c01b-3902-4d4e-9b14-3d49f55b2851)
 <p>Here you can add and remove scenes, audio files, or animations that players will preload when entering the world.</p>
 <hr>
 <p><strong>Adding</strong> content for preloading through the Preloader window depends on the type of content:</p>
@@ -26,7 +25,7 @@
 </ul>
 <p>The content added in the preload window will look like a salad-green node with the name of the scene or file path.</p>
 
-![Foundry_Virtual_Tabletop_dA9HxHrpWV](https://github.com/JabaNazgob/Preloader/assets/8327536/4bfafe28-9e09-45e9-902d-0b7741613b7d)
+![Foundry_Virtual_Tabletop_dA9HxHrpWV](https://github.com/JabaNazgob/FoundryVTT-Preloader/assets/8327536/4723d3dc-ac4d-496f-8084-f610a929637d)
 <p>After you have added the necessary content to the preload window, you need to click the "Save" button to <strong>confirm</strong> the changes. As long as there is at least 1 added scene/file in the window, the "Save" button will light up salad-green. Also, you can undo the changes made by clicking the "Cancel" button, in which case any changes that you made to the preload window will be cancelled, which will be useful for cases when you accidentally delete a file with a long path, which you don't even remember.</p>
 <p>You can click on the cross in the right part of the node to <strong>remove </strong>content from the preload window. This change will also only be applied after clicking the "Save" button.</p>
 <h2><strong>Export/Import</strong></h2>
