@@ -4,7 +4,8 @@
   "version": "1.1",
   "authors": [
     {
-      "name": "Nazgob"
+      "name": "Nazgob",
+      "discord": ".nazgob"
     }
   ],
   "esmodules": [
@@ -31,5 +32,8 @@
   "compatibility": {
     "minimum": "10",
     "verified": "11"
-  }
+  },
+  "url": "https://github.com/JabaNazgob/FoundryVTT-Preloader",
+  "manifest": "https://github.com/JabaNazgob/FoundryVTT-Preloader/releases/latest/download/module.json",
+  "download": "https://github.com/JabaNazgob/FoundryVTT-Preloader/releases/download/v1.1/module.zip"
 }
