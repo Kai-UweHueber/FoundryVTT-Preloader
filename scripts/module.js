@@ -22,13 +22,15 @@ Hooks.once('ready', async function() {
     });
 
     // Animations settings menu register
-    game.settings.registerMenu(C.ID, game.i18n.localize(`${C.ID}.settings.animations.settingName`), {
-        name: game.i18n.localize(`${C.ID}.settings.animations.name`),
-        label: game.i18n.localize(`${C.ID}.settings.animations.label`),
-        hint: game.i18n.localize(`${C.ID}.settings.animations.hint`),
-        type: PreloaderAnimations,
-        restricted: true
-    });
+    if (game.modules.get("sequencer")?.active) {
+        game.settings.registerMenu(C.ID, game.i18n.localize(`${C.ID}.settings.animations.settingName`), {
+            name: game.i18n.localize(`${C.ID}.settings.animations.name`),
+            label: game.i18n.localize(`${C.ID}.settings.animations.label`),
+            hint: game.i18n.localize(`${C.ID}.settings.animations.hint`),
+            type: PreloaderAnimations,
+            restricted: true
+        });
+    }
 
     // Register global settings - array of scene ids for preloading
     game.settings.register(C.ID, "scenesBuffer", {
